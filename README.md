@@ -1,4 +1,4 @@
-# Simple User CRUD App
+# User CRUD App
 
 A simple web application built with Laravel for managing users and their tasks.
 
