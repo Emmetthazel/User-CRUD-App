@@ -17,7 +17,7 @@
                         </span>
                     </p>
                     @if ($task->due_date)
-                         <p><strong>Due Date:</strong> {{ $task->due_date->format('M d, Y') }}</p>
+                        <p><strong>Due Date:</strong> {{ $task->due_date->format('M d, Y') }}</p>
                     @endif
                     <p><strong>Created At:</strong> {{ $task->created_at->format('M d, Y H:i A') }}</p>
                     <p><strong>Last Updated:</strong> {{ $task->updated_at->format('M d, Y H:i A') }}</p>
